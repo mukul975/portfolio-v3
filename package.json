@@ -1,0 +1,44 @@
+{
+  "name": "mahipal-portfolio-v3",
+  "version": "3.0.0",
+  "description": "An immersive 3D space-themed portfolio showcasing projects, skills, and research with stunning visual effects",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000 || python3 -m http.server 8000",
+    "dev": "live-server --port=8000 --open=/index.html",
+    "build": "echo 'No build process required for static site'",
+    "deploy": "echo 'Ready for deployment to GitHub Pages, Netlify, or Vercel'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mukul975/portfolio-v3.git"
+  },
+  "keywords": [
+    "portfolio",
+    "3d",
+    "threejs",
+    "space-theme",
+    "webgl",
+    "responsive",
+    "cybersecurity",
+    "frontend",
+    "web-development"
+  ],
+  "author": {
+    "name": "Mahipal Jangra",
+    "email": "mukuljangra5@gmail.com",
+    "url": "https://mahipal.engineer"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mukul975/portfolio-v3/issues"
+  },
+  "homepage": "https://mahipal.engineer",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
